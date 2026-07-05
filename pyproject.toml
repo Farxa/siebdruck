@@ -1,0 +1,20 @@
+[project]
+name = "siebdruck"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.1",
+    "Pillow>=12.2.0",
+    "aggdraw>=1.4.1",
+    "uharfbuzz>=0.55.0",
+    "fonttools>=4.63.0",
+    "cairosvg>=2.9.0",
+    "python-dotenv>=1.2.2",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"

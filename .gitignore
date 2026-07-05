@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pyc
+designs/pal_cities/source/PalestineMapCities_BlackOnWhite_transparent.svg
